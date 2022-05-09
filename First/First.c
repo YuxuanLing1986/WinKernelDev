@@ -9,6 +9,7 @@ VOID DriverUnload(PDRIVER_OBJECT DriverObject)
 }
 NTSTATUS DriverEntry( PDRIVER_OBJECT DriverObject,PUNICODE_STRING  RegistryPath)
 {
+	KdBreakPoint();
 	DbgPrint("[%ws]Hello Kernel World\n",__FUNCTIONW__);
 	if (RegistryPath != NULL)
 	{

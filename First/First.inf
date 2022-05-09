@@ -6,7 +6,7 @@
 Signature="$WINDOWS NT$"
 Class=System
 ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
-Provider=%ManufacturerName%
+Provider="Yxling"
 DriverVer=
 CatalogFile=First.cat
 
@@ -20,13 +20,13 @@ DefaultDestDir = 12
 [SourceDisksFiles]
 
 
-[Manufacturer]
-%ManufacturerName%=Standard,NT$ARCH$
+;[Manufacturer]
+;%ManufacturerName%=Standard,NT$ARCH$
 
 [Standard.NT$ARCH$]
 
 
 [Strings]
-ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+;ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
 ClassName=""
 DiskName="First Source Disk"
